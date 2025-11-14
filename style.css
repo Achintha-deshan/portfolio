@@ -529,3 +529,93 @@ body {
 @keyframes heroButton { 0%{opacity:0; transform:translateY(20px);} 100%{opacity:1; transform:translateY(0);} }
 @keyframes heroSocial { 0%{opacity:0; transform:translateY(20px);} 100%{opacity:1; transform:translateY(0);} }
 
+
+/* --- MOBILE RESPONSIVE (max-width: 576px) --- */
+@media (max-width: 576px) {
+
+  /* NAVBAR */
+  .custom-navbar {
+    padding: 10px 0;
+  }
+
+  .nav-link {
+    margin: 5px 0;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-box {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .profileimage {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  /* Buttons center */
+  .btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  /* PROJECT SECTION */
+  .project-card img {
+    height: 150px;
+  }
+
+  /* ABOUT */
+  .about-img-modern,
+  .about-img {
+    height: 500px;
+  }
+
+  /* SERVICES */
+  .service-card {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+  }
+
+  /* SKILLS */
+  .skill-card {
+    text-align: center;
+  }
+
+  .progress-circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* GALLERY */
+  .gallery-item img {
+    height: 180px;
+  }
+}
